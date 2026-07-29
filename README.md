@@ -1,6 +1,6 @@
 # Equity Portfolio Rebalancer
 
-An n8n workflow that reads a stock portfolio from Google Sheets, fetches live market prices, computes the rebalancing needed to reach a target allocation, writes the results back to the sheet, and notifies the user by email and push notification.
+An n8n workflow that reads a stock portfolio from Google Sheets, fetches the latest closing prices, computes the rebalancing needed to reach a target allocation, writes the results back to the sheet, and notifies the user by email and push notification.
 
 > Built with n8n, OpenAI (tool-calling agent), Marketstack, Google Sheets, Gmail and Pushover.
 
